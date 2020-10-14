@@ -15,7 +15,9 @@ function Product({ id, title, price, rating, image }) {
           {Array(rating)
             .fill()
             .map((_, index) => (
-              <StarIcon key={index} />
+              <p>
+                <StarIcon key={index} />
+              </p>
             ))}
         </div>
       </div>

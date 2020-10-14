@@ -6,12 +6,13 @@ function Header() {
   return (
     <div className="header">
       <img
+        alt="headerImg"
         className="header__logo"
         src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
       />
 
       <div className="header__search">
-        <input className="haeder__searchInput" type="text" />
+        <input className="header__searchInput" type="text" />
         <SearchIcon className="header__searchIcon" />
       </div>
       <div className="header__nav">
