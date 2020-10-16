@@ -13,7 +13,7 @@ function Home() {
         />
         <div className="home__row">
           <Product
-            id="12321"
+            id="34343"
             title="Apple Watch Series 3 (GPS, 42mm) - Space Grey Aluminium Case with Black Sport Band"
             price={240}
             rating={5}
@@ -28,6 +28,13 @@ function Home() {
           />
         </div>
         <div className="home__row">
+          <Product
+            id="12321"
+            title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
+            price={14.79}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+          />
           <Product
             id="12321"
             title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
