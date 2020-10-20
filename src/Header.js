@@ -9,8 +9,8 @@ function Header() {
   //we use the state value to update cart value
   const [state, dispatch] = useStateValue();
   const handleAuth = () => {
-    console.log(state?.user);
-    console.log(state?.user);
+    //console.log(state?.user);
+    //console.log(state?.user);
     if (state?.user) {
       auth.signOut();
     }

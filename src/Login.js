@@ -27,7 +27,7 @@ export const Login = () => {
       .createUserWithEmailAndPassword(email, password)
       .then((auth) => {
         //succesfully created a new user
-        console.log(auth);
+        //console.log(auth);
         if (auth) {
           history.push("/");
         }

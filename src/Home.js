@@ -13,6 +13,7 @@ function Home() {
         />
         <div className="home__row">
           <Product
+            index={1}
             id="34343"
             title="Apple Watch Series 3 (GPS, 42mm) - Space Grey Aluminium Case with Black Sport Band"
             price={240}
@@ -20,6 +21,7 @@ function Home() {
             image="https://images-eu.ssl-images-amazon.com/images/I/41RLXO5JUhL._AC_SX368_.jpg"
           />
           <Product
+            index={2}
             id="12321"
             title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
             price={14.79}
@@ -29,28 +31,32 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
-            id="12321"
+            index={3}
+            id="23242"
             title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
             price={14.79}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
           />
           <Product
-            id="12321"
+            id="34545"
+            index={4}
             title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
             price={14.79}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
           />
           <Product
-            id="12321"
+            id="56565"
+            index={5}
             title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
             price={14.79}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
           />
           <Product
-            id="12321"
+            id="76454"
+            index={6}
             title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
             price={14.79}
             rating={4}
@@ -59,14 +65,16 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
-            id="12321"
+            index={7}
+            id="95434"
             title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
             price={14.79}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
           />
           <Product
-            id="12321"
+            id="5445"
+            index={8}
             title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
             price={14.79}
             rating={4}

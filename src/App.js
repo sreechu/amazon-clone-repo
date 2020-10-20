@@ -14,7 +14,7 @@ function App() {
     //will run only once when the app component loads since the [] is empty !!
     //once the app loads, we load this listener that looks out for auth object
     auth.onAuthStateChanged((authUser) => {
-      console.log("user is " + authUser);
+      //console.log("user is " + authUser);
       if (authUser) {
         //user logged in
         //dispatch the newly created user into the state
